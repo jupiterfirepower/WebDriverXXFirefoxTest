@@ -1,4 +1,4 @@
-# WebDriverXXFirefox Test
+# WebDriverXXFirefox Test tested on Ubuntu 17.10.1
 # Download Oracle JRE
 tar zxvf jre-9.0.4_linux-x64_bin.tar.gz
 export JAVA_HOME=~/Downloads/jre-9.0.4
@@ -22,3 +22,4 @@ sudo make install
 # Download Selenium Server and Run in console
 java -jar selenium-server-standalone-3.9.1.jar
 # make test application an run
+make webdrivetest
